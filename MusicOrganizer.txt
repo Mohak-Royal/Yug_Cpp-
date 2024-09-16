@@ -1,0 +1,32 @@
+/*
+Problem Statement: Music Library Organizer
+
+You are tasked with developing a Music Library Organizer program to manage a collection of music tracks and albums. The system should consist of classes for tracks, artists, and genres, allowing the user to efficiently add, remove, and search for music entries in the library.
+
+Requirements:
+
+1. Create a class 'Artist' with private member variables for the artist's name, birthdate, and nationality. Implement getter and setter methods for these attributes.
+
+2. Create a class 'Genre' with private member variables for the genre name and a description. Implement getter and setter methods for these attributes.
+
+3. Create a class 'Track' with private member variables for the track's title, duration, release year, an instance of an 'Artist', and an instance of a 'Genre'. Implement getter and setter methods for these attributes.
+
+4. Implement a class 'MusicLibrary' that manages a collection of music tracks. It should include the following functionalities:
+   - Add a new track to the library.
+   - Remove a track from the library by title or artist.
+   - Search for tracks by title, artist, genre, or release year and display the matching tracks.
+   - Display the entire music library.
+
+5. Ensure that track titles are unique within the library.
+
+6. Implement proper validation checks when adding or removing tracks. For example, check for duplicate track titles when adding a new track and ensure that the track exists in the library before attempting to remove it.
+
+7. Provide a user-friendly command-line interface (CLI) to interact with the Music Library Organizer, allowing users to perform actions like adding, removing, searching for tracks, and displaying the library.
+
+8. Handle edge cases gracefully, such as when searching for a track that does not exist in the library.
+
+9. Implement error handling to prevent crashes and provide informative error messages to users in case of incorrect input or other issues.
+
+Remember to use proper object-oriented programming principles, encapsulation, and error handling in your C++ program.
+
+*/
